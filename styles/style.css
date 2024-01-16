@@ -1,15 +1,9 @@
 /*Heading-Style*/
-header{
-    width: 1250;
-}
-main{
-    width: 1250px;
-}
 .logo{
     display: flex;
 }
 nav{
-    width:1250px ;
+    width:100% ;
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -34,7 +28,7 @@ nav li a{
 .banner{
     background-image: url("../Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
-    width: 1250px;
+    width: 100%;
     margin-top: 10px;
     
 height: 500px;
@@ -90,7 +84,6 @@ margin-top: 60px;
     display:flex ;
    margin-top: 100px;
    margin-left: 60px;
-   justify-content: space-around;
 
 }
 .amet{
@@ -415,50 +408,6 @@ position: relative;
 bottom: 180px;
 left: 875px;
 }
-.hero{
-    color: orange;
-}
-.airplane{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-left: 42%;
-}
-.footer-description{
-color: #5A5A5D;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
-}
-footer{
-    background: rgba(19, 19, 24, 0.05);
-    width: 1250px;
-height: 420px;
-flex-shrink: 0;
-}
-
-.social-media>ul{
-    display: flex;
-    margin-left: 36%;
-    margin-top: 25px;
-}
-.social-media>ul>li{
-    list-style: none; 
-}
-.social-media li a{
-    margin-left: 44px;
-    gap: 100px;
-}
-.right{
-    text-align: center;
-    margin-top: 70px;
-}
-.footer-section{
-    padding-top: 30px;
-}
 
 
 @media screen and (max-width:576px) {
@@ -478,116 +427,12 @@ padding: 0px;
     flex-direction: column;
     margin-left: 120px;
     padding: 0px;
-    margin-top: 0px;
- 
+    margin-top: 110px;
 }
 .heading1{
-    text-align: center;
-    color: #FFF;
-font-size: 24px;
-font-style: normal;
-padding-top:10px;
-align-items: start;
+    margin-top: 0px;
 }
 .direction{
 flex-direction: column;
-margin-left: 0px;
-margin-top: 0px;
 }
-.unorderd, .non-orderd{
-    align-items: start;
-    margin-left: 0px;
-    padding-left: 10px;
 }
-.unorderd>li{
-    width: 350px;
-}
-nav ul{
-    align-items: start;
-}
-.choose, .amet-2{
-    text-align: start;
-}
-.maldives{
-    flex-direction: column;
-    margin-left: 0px;
-}
-.maldives>img{
-    width: 500px;
-}
-.srilanka{
-    flex-direction: column;
-    margin-left: 0px;
-}
-.srilanka>img{
-    width: 500px;
-}
-.Bangladesh{
-    flex-direction: column;
-    margin-left: 0px;
-}
-.Bangladesh>img{
-    width: 500px;
-}
-.us, .deals{
-    margin-left: 130px;
-    text-align: start; 
-}
-.sit, .prghp{
-    margin-left: 90px;
-    text-align: start;
-    width: 375px;
-}
-.messi{
-    flex-direction: column;
-}
-.money{
-    margin-left: 0px;
-}
-.hotel, .money{
-    width: 450px;
-}
-.over, .over-flow{
-    position: relative;
-    width: 400px;
-    margin-left: 20px;
-}
-.simple{
-    flex-direction: column;
-}
-.group-400>img{
-    width: 500px ;
-}
-.news-latter{
-    flex-direction: column;
-}
-
-.modern>img{
-    width: 500px;
-}
-.container-1,.container-2{
-    width: 500px;
-    margin-left: 0px;
-}
-footer{
-    width: 550px;
-}
-.social-media li a{
-    margin-left: 14px;
-}
-.social-media>ul{
-    margin-left: 180px;
-}
-.airplane{
-    margin-left: 35%;
-}
-.rotate{
-    left: 175px;
-}
-#primary{
-    margin-left: 25%;
-}
-
-}
-
-
